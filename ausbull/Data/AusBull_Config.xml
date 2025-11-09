@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <!-- 前端配置 -->
+    <PlayerItems>
+        <Row Domain="Players:Expansion2Players" 
+             CivilizationType="CIVILIZATION_AUSTRALIA" 
+             LeaderType="LEADER_AUSBULL" 
+             Type="LEADER_AUSBULL" 
+             Icon="ICON_LEADER_AUSBULL" 
+             Name="LOC_LEADER_AUSBULL_NAME" 
+             Description="LOC_LEADER_AUSBULL_NAME" 
+             SortIndex="10"/>
+    </PlayerItems>
+</GameData>

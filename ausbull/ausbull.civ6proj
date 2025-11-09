@@ -27,6 +27,11 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="ausbull.Art.xml" />
+    <None Include="ausbull.modinfo" />
+    <None Include="Data\AusBull_Leaders.xml" />
+    <None Include="Data\AusBull_Config.xml" />
+    <None Include="Text\AusBull_Text_zh_Hans_CN.xml" />
+    <None Include="Text\AusBull_Text_en_US.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>

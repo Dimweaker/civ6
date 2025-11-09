@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <!-- 领袖定义 -->
+    <Types>
+        <Row Type="LEADER_AUSBULL" Kind="KIND_LEADER"/>
+        <Row Type="TRAIT_LEADER_AUSBULL_BULLISH" Kind="KIND_TRAIT"/>
+    </Types>
+
+    <!-- 领袖基本信息 -->
+    <Leaders>
+        <Row LeaderType="LEADER_AUSBULL" 
+             Name="LOC_LEADER_AUSBULL_NAME" 
+             InheritFrom="LEADER_CURTIN"
+             SceneLayers="4"/>
+    </Leaders>
+
+    <!-- 领袖特性 -->
+    <LeaderTraits>
+        <Row LeaderType="LEADER_AUSBULL" TraitType="TRAIT_LEADER_AUSBULL_BULLISH"/>
+    </LeaderTraits>
+
+    <!-- 特性定义 -->
+    <Traits>
+        <Row TraitType="TRAIT_LEADER_AUSBULL_BULLISH" 
+             Name="LOC_TRAIT_LEADER_AUSBULL_BULLISH_NAME" 
+             Description="LOC_TRAIT_LEADER_AUSBULL_BULLISH_DESCRIPTION"/>
+    </Traits>
+
+    <!-- 特性修正器：-2战斗力，+2行动力 -->
+    <TraitModifiers>
+        <Row TraitType="TRAIT_LEADER_AUSBULL_BULLISH" ModifierId="AUSBULL_COMBAT_PENALTY"/>
+        <Row TraitType="TRAIT_LEADER_AUSBULL_BULLISH" ModifierId="AUSBULL_MOVEMENT_BONUS"/>
+    </TraitModifiers>
+
+    <!-- 修正器定义 -->
+    <Modifiers>
+        <Row ModifierId="AUSBULL_COMBAT_PENALTY" 
+             ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH"/>
+        <Row ModifierId="AUSBULL_MOVEMENT_BONUS" 
+             ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT"/>
+    </Modifiers>
+
+    <!-- 修正器参数 -->
+    <ModifierArguments>
+        <!-- 战斗力 -2 -->
+        <Row ModifierId="AUSBULL_COMBAT_PENALTY" Name="Amount" Value="-2"/>
+        <!-- 行动力 +2 -->
+        <Row ModifierId="AUSBULL_MOVEMENT_BONUS" Name="Amount" Value="2"/>
+    </ModifierArguments>
+
+    <!-- 文明-领袖关联 -->
+    <CivilizationLeaders>
+        <Row CivilizationType="CIVILIZATION_AUSTRALIA" 
+             LeaderType="LEADER_AUSBULL" 
+             CapitalName="LOC_CITY_NAME_CANBERRA"/>
+    </CivilizationLeaders>
+</GameData>
