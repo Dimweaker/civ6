@@ -42,7 +42,7 @@ AusBull inherits all traits from John Curtin:
 
 ## 安装方法 / Installation
 
-1. 将整个 `ausbull` 文件夹复制到你的 Civ6 Mods 目录 / Copy the entire `ausbull` folder to your Civ6 Mods directory
+1. 将整个 `AusBullLeader` 文件夹复制到你的 Civ6 Mods 目录 / Copy the entire `AusBullLeader` folder to your Civ6 Mods directory
    - Windows: `Documents\My Games\Sid Meier's Civilization VI\Mods\`
    - Mac: `~/Library/Application Support/Sid Meier's Civilization VI/Mods/`
    - Linux: `~/.local/share/aspyr-media/Sid Meier's Civilization VI/Mods/`
@@ -53,19 +53,18 @@ AusBull inherits all traits from John Curtin:
 
 ---
 
-## 文件结构 / File Structure
-
+### 目录结构
 ```
-ausbull/
-├── Data/
-│   ├── AusBull_Config.xml        # 前端配置 / Frontend configuration
-│   └── AusBull_Leaders.xml       # 领袖定义 / Leader definitions
-├── Text/
-│   ├── AusBull_Text_zh_Hans_CN.xml  # 简体中文本地化 / Simplified Chinese
-│   └── AusBull_Text_en_US.xml       # 英文本地化 / English localization
-├── ausbull.Art.xml               # 艺术资源配置 / Art definitions
-├── ausbull.civ6proj              # 项目文件 / Project file
-└── ausbull.modinfo               # 模组信息 / Mod metadata
+AusBullLeader/
+├── AusBullLeader.civ6proj        # ModBuddy项目文件（核心配置）
+├── Data/                          # 游戏数据文件夹
+│   ├── AusBull_Leaders.xml       # 领袖定义和游戏机制
+│   └── AusBull_Config.xml        # 前端配置
+└── Text/                          # 本地化文本文件夹
+    ├── AusBull_Text_zh_Hans_CN.xml        # 游戏内中文文本
+    ├── AusBull_Text_en_US.xml             # 游戏内英文文本
+    ├── AusBull_ConfigText_zh_Hans_CN.xml  # Mod描述中文
+    └── AusBull_ConfigText_en_US.xml       # Mod描述英文
 ```
 
 ---

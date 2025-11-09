@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <!-- Mod 标题 -->
+    <LocalizedText>
+        <Row Tag="LOC_AUSBULL_MOD_TITLE" Language="zh_Hans_CN">
+            <Text>澳洲大牛牛领袖</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Mod 描述 -->
+    <LocalizedText>
+        <Row Tag="LOC_AUSBULL_MOD_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>为澳大利亚文明添加全新领袖"澳洲大牛牛"。领袖特性：所有军事单位-2战斗力，+2行动力。</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Mod 简介 -->
+    <LocalizedText>
+        <Row Tag="LOC_AUSBULL_MOD_TEASER" Language="zh_Hans_CN">
+            <Text>澳大利亚新领袖：拥有"牛气冲天"特性的澳洲大牛牛</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

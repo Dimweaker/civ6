@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <!-- Mod Title -->
+    <LocalizedText>
+        <Row Tag="LOC_AUSBULL_MOD_TITLE" Language="en_US">
+            <Text>AusBull Leader</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Mod Description -->
+    <LocalizedText>
+        <Row Tag="LOC_AUSBULL_MOD_DESCRIPTION" Language="en_US">
+            <Text>Adds AusBull as a new leader for Australia. Leader ability: All military units -2 Combat Strength, +2 Movement.</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Mod Teaser -->
+    <LocalizedText>
+        <Row Tag="LOC_AUSBULL_MOD_TEASER" Language="en_US">
+            <Text>New leader for Australia: AusBull with the Bullish Momentum trait</Text>
+        </Row>
+    </LocalizedText>
+</GameData>
