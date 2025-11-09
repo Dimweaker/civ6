@@ -19,29 +19,16 @@
   <UpdateDatabase id="AusBull_Leaders">
     <Criteria>Expansion2</Criteria>
     <File>Data/AusBull_Leaders.xml</File>
-  </UpdateDatabase>
-  <UpdateText id="AusBull_Text_CN">
-    <Criteria>Expansion2</Criteria>
     <File>Text/AusBull_Text_zh_Hans_CN.xml</File>
-  </UpdateText>
-  <UpdateText id="AusBull_Text_EN">
-    <Criteria>Expansion2</Criteria>
     <File>Text/AusBull_Text_en_US.xml</File>
-  </UpdateText>
+  </UpdateDatabase>
 </InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions>
   <UpdateDatabase id="AusBull_Config">
-    <Criteria>Expansion2</Criteria>
     <File>Data/AusBull_Config.xml</File>
-  </UpdateDatabase>
-  <UpdateText id="AusBull_ConfigText_CN">
-    <Criteria>Expansion2</Criteria>
     <File>Text/AusBull_ConfigText_zh_Hans_CN.xml</File>
-  </UpdateText>
-  <UpdateText id="AusBull_ConfigText_EN">
-    <Criteria>Expansion2</Criteria>
     <File>Text/AusBull_ConfigText_en_US.xml</File>
-  </UpdateText>
+  </UpdateDatabase>
 </FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
   <Criteria id="Expansion2">
