@@ -2,13 +2,13 @@
 <GameData>
     <!-- 前端配置 -->
     <PlayerItems>
-        <Row Domain="Players:Expansion2Players" 
+        <Row Domain="Players:Expansion2_Players" 
              CivilizationType="CIVILIZATION_AUSTRALIA" 
              LeaderType="LEADER_AUSBULL" 
              Type="LEADER_AUSBULL" 
              Icon="ICON_LEADER_AUSBULL" 
              Name="LOC_LEADER_AUSBULL_NAME" 
-             Description="LOC_LEADER_AUSBULL_NAME" 
+             Description="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_CHAPTER_HISTORY_PARA_1" 
              SortIndex="10"/>
     </PlayerItems>
 </GameData>

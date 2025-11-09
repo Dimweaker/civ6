@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>AusBull Leader</Name>
+    <Guid>903656ae-1ec3-487a-8497-d7ff490e18f0</Guid>
+    <ProjectGuid>83cc1eb6-bd67-4e9a-8559-b48c1a104b62</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_AUSBULL_MOD_TEASER</Teaser>
+    <Description>LOC_AUSBULL_MOD_DESCRIPTION</Description>
+    <Authors>dimweak</Authors>
+    <SpecialThanks></SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <InGameActionData><![CDATA[<InGameActions>
+  <UpdateDatabase id="AusBull_Leaders">
+    <Criteria>Expansion2</Criteria>
+    <File>Data/AusBull_Leaders.xml</File>
+  </UpdateDatabase>
+  <UpdateText id="AusBull_Text_CN">
+    <Criteria>Expansion2</Criteria>
+    <File>Text/AusBull_Text_zh_Hans_CN.xml</File>
+  </UpdateText>
+  <UpdateText id="AusBull_Text_EN">
+    <Criteria>Expansion2</Criteria>
+    <File>Text/AusBull_Text_en_US.xml</File>
+  </UpdateText>
+</InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions>
+  <UpdateDatabase id="AusBull_Config">
+    <Criteria>Expansion2</Criteria>
+    <File>Data/AusBull_Config.xml</File>
+  </UpdateDatabase>
+  <UpdateText id="AusBull_ConfigText_CN">
+    <Criteria>Expansion2</Criteria>
+    <File>Text/AusBull_ConfigText_zh_Hans_CN.xml</File>
+  </UpdateText>
+  <UpdateText id="AusBull_ConfigText_EN">
+    <Criteria>Expansion2</Criteria>
+    <File>Text/AusBull_ConfigText_en_US.xml</File>
+  </UpdateText>
+</FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria>
+  <Criteria id="Expansion2">
+    <GameCoreInUse>Expansion2</GameCoreInUse>
+  </Criteria>
+</ActionCriteria>]]></ActionCriteriaData>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>AusBullLeader</AssemblyName>
+    <RootNamespace>AusBullLeader</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Data\AusBull_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\AusBull_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\AusBull_Text_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\AusBull_Text_en_US.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\AusBull_ConfigText_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\AusBull_ConfigText_en_US.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <None Include="ausbull.Art.xml" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
