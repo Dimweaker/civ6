@@ -2,7 +2,6 @@
 <GameData>
     <!-- 领袖定义 -->
     <Types>
-        <Row Type="LEADER_AUSBULL" Kind="KIND_LEADER"/>
         <Row Type="TRAIT_LEADER_AUSBULL_BULLISH" Kind="KIND_TRAIT"/>
     </Types>
 

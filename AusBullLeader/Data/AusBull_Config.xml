@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-    <!-- 前端配置 -->
+    <!-- 前端配置：定义类型 -->
+    <Types>
+        <Row Type="LEADER_AUSBULL" Kind="KIND_LEADER"/>
+    </Types>
+    
+    <!-- 前端配置：领袖UI显示 -->
     <PlayerItems>
         <Row Domain="Players:Expansion2_Players" 
              CivilizationType="CIVILIZATION_AUSTRALIA" 
