@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <!-- 领袖名称 -->
+    <LocalizedText>
+        <Row Tag="LOC_LEADER_AUSBULL_NAME" Language="zh_Hans_CN">
+            <Text>澳洲大牛牛</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- 领袖特性名称 -->
+    <LocalizedText>
+        <Row Tag="LOC_TRAIT_LEADER_AUSBULL_BULLISH_NAME" Language="zh_Hans_CN">
+            <Text>牛气冲天</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- 领袖特性描述 -->
+    <LocalizedText>
+        <Row Tag="LOC_TRAIT_LEADER_AUSBULL_BULLISH_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>所有军事单位-2 [ICON_Strength] 战斗力，+2 [ICON_Movement] 行动力。</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- 领袖百科标题 -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_TITLE" Language="zh_Hans_CN">
+            <Text>澳洲大牛牛</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- 领袖百科副标题 -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_SUBTITLE" Language="zh_Hans_CN">
+            <Text>澳大利亚领袖</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- 领袖百科章节 -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>澳洲大牛牛，传说中的澳大利亚领袖，以其独特的战术风格闻名。虽然其军队战斗力略显不足，但凭借超强的机动能力，能够快速调动部队，出其不意地发起进攻或撤退。</Text>
+        </Row>
+    </LocalizedText>
+
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>在大牛牛的领导下，澳大利亚军队采用机动性优先的战术，通过快速移动来弥补战斗力的不足，这种独特的军事思想使得澳大利亚在战场上拥有无与伦比的灵活性。</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- 领袖百科章节标题 -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+            <Text>澳洲大牛牛继承了约翰·柯廷的所有特性，同时带来了全新的战术理念。其"牛气冲天"特性虽然削弱了军队的直接战斗能力，但大幅提升了机动性，使得玩家可以采用更加灵活的战术策略。</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

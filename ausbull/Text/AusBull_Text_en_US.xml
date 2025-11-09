@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <!-- Leader Name -->
+    <LocalizedText>
+        <Row Tag="LOC_LEADER_AUSBULL_NAME" Language="en_US">
+            <Text>AusBull</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Leader Trait Name -->
+    <LocalizedText>
+        <Row Tag="LOC_TRAIT_LEADER_AUSBULL_BULLISH_NAME" Language="en_US">
+            <Text>Bullish Momentum</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Leader Trait Description -->
+    <LocalizedText>
+        <Row Tag="LOC_TRAIT_LEADER_AUSBULL_BULLISH_DESCRIPTION" Language="en_US">
+            <Text>All military units -2 [ICON_Strength] Combat Strength, +2 [ICON_Movement] Movement.</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Civilopedia Title -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_TITLE" Language="en_US">
+            <Text>AusBull</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Civilopedia Subtitle -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_SUBTITLE" Language="en_US">
+            <Text>Leader of Australia</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Civilopedia Chapter -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+            <Text>AusBull, the legendary leader of Australia, is renowned for a unique tactical approach. While military forces may lack raw combat power, they compensate with exceptional mobility, enabling swift troop movements for surprise attacks or strategic retreats.</Text>
+        </Row>
+    </LocalizedText>
+
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_CHAPTER_HISTORY_PARA_2" Language="en_US">
+            <Text>Under AusBull's leadership, Australian forces prioritize mobility over brute strength. This distinctive military philosophy grants Australia unparalleled flexibility on the battlefield, using speed and maneuverability to overcome conventional disadvantages.</Text>
+        </Row>
+    </LocalizedText>
+
+    <!-- Civilopedia Detailed Body -->
+    <LocalizedText>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AUSBULL_CHAPTER_DETAILED_BODY" Language="en_US">
+            <Text>AusBull inherits all traits of John Curtin while introducing a revolutionary tactical doctrine. The "Bullish Momentum" ability trades direct combat strength for enhanced mobility, encouraging players to adopt more flexible and dynamic strategic approaches.</Text>
+        </Row>
+    </LocalizedText>
+</GameData>
